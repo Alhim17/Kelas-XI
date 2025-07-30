@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Vector asset ikon profil orang untuk daftar kontak.
+    - Kepala digambar sebagai lingkaran di tengah atas.
+    - Badan digambar sebagai setengah oval di bawah kepala.
+    - Warna utama: abu-abu gelap (#FF424242).
+    - Kompatibel untuk ImageView dan dapat di-tint.
+    - Path dan proporsi sudah disesuaikan agar lebih natural.
+    - Cocok untuk pembelajaran desain vektor sederhana di Android.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Lingkaran kepala (pusat di x=12, y=8, radius=4) -->
+    <path
+        android:fillColor="#FF424242"
+        android:pathData="M12,8m-4,0a4,4 0 1,0 8,0a4,4 0 1,0 -8,0" />
+    <!-- Badan (setengah oval, proporsional di bawah kepala) -->
+    <path
+        android:fillColor="#FF424242"
+        android:pathData="M4,18c0-3.31 5.37-6 8-6s8,2.69 8,6v2c0,0.55-0.45,1-1,1H5c-0.55,0-1-0.45-1-1v-2z" />
+</vector>

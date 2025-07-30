@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FAFAFA">
+
+    <!-- TextView untuk menampilkan hasil -->
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100sp"
+        android:textColor="#212121"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:background="#EEEEEE"
+        android:padding="16dp" />
+
+    <!-- EditText untuk input bilangan pertama -->
+    <EditText
+        android:id="@+id/et_bil_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Bilangan Pertama"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp" />
+
+    <!-- EditText untuk input bilangan kedua -->
+    <EditText
+        android:id="@+id/et_bil_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Bilangan Kedua"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp" />
+
+    <!-- Button Penjumlahan -->
+    <Button
+        android:id="@+id/btn_jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Penjumlahan"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="btnJumlah" />
+
+    <!-- Button Pengurangan -->
+    <Button
+        android:id="@+id/btn_kurang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pengurangan"
+        android:backgroundTint="#F44336"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="btnKurang" />
+
+    <!-- Button Perkalian -->
+    <Button
+        android:id="@+id/btn_kali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perkalian"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="btnKali" />
+
+    <!-- Button Pembagian -->
+    <Button
+        android:id="@+id/btn_bagi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pembagian"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="btnBagi" />
+
+</LinearLayout>

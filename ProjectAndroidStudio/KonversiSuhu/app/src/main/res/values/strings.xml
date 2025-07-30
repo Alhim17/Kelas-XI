@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Konversi Suhu</string>
+    <string-array name="temperature_units">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+        <item>Reamur</item>
+    </string-array>
+    <string-array name="konversi_options">
+        <item>Celsius ke Fahrenheit</item>
+        <item>Celsius ke Kelvin</item>
+        <item>Celsius ke Reamur</item>
+        <item>Fahrenheit ke Celsius</item>
+        <item>Fahrenheit ke Kelvin</item>
+        <item>Fahrenheit ke Reamur</item>
+        <item>Kelvin ke Celsius</item>
+        <item>Kelvin ke Fahrenheit</item>
+        <item>Kelvin ke Reamur</item>
+        <item>Reamur ke Celsius</item>
+        <item>Reamur ke Fahrenheit</item>
+        <item>Reamur ke Kelvin</item>
+    </string-array>
+</resources>
